@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Explorer & Notes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>Country Explorer & Notes</h1>
+    <p>Menampilkan data negara dari API publik dan mengelola catatan negara secara lokal.</p>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <!-- SECTION: COUNTRY EXPLORER (API) -->
+  <section id="countries">
+    <h2>Daftar Negara</h2>
+
+    <input type="text" id="searchCountry" placeholder="Cari negara...">
+
+    <div id="countryList">
+      <!-- Data negara dari API akan ditampilkan di sini -->
+    </div>
+  </section>
+
+  <!-- SECTION: NOTES / CRUD -->
+  <section id="notes">
+    <h2>Catatan Negara</h2>
+
+    <form id="noteForm">
+      <input type="hidden" id="noteId">
+
+      <label>
+        Negara
+        <input type="text" id="noteCountry" placeholder="Nama negara">
+      </label>
+
+      <label>
+        Catatan
+        <input type="text" id="noteText" placeholder="Tulis catatan">
+      </label>
+
+      <label>
+        Prioritas
+        <select id="notePriority">
+          <option value="Low">Low</option>
+          <option value="Normal" selected>Normal</option>
+          <option value="High">High</option>
+        </select>
+      </label>
+
+      <button type="submit">Simpan Catatan</button>
+    </form>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Negara</th>
+          <th>Catatan</th>
+          <th>Prioritas</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="notesTable">
+        <!-- Data CRUD notes akan muncul di sini -->
+      </tbody>
+    </table>
+  </section>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
