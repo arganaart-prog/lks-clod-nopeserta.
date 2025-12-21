@@ -215,6 +215,41 @@ footer {
   margin: 0 auto;
 }
 
+
+
+/* ===============================
+   ABOUT PAGE
+=============================== */
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.about-content h2 {
+  margin-bottom: 1rem;
+}
+
+.about-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.6rem;
+  color: #2c3e50;
+}
+
+.about-content p {
+  margin-bottom: 0.8rem;
+}
+
+.about-content ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.about-content li {
+  margin-bottom: 0.4rem;
+}
+
 /* ===============================
    RESPONSIVE
 =============================== */
