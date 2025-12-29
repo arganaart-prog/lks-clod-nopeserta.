@@ -5,6 +5,8 @@
 A brief description of what this project does and who it's for
 
 
-## Tampilan Login
-![Halaman Login](assets/screnshoot/login.png)
+## Tampilan Utama
+![Halaman utama](assets/screnshoot/tampilan 1.png)
 
+## Tampilan Crud
+![halaman crud] (assets/screnshoot/tampilan 2.png)
